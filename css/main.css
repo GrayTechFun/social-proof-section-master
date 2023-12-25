@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+article {
+  width: 32.7em;
+}
