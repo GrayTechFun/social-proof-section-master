@@ -17,3 +17,188 @@ body {
 article {
   width: 32.7em;
 }
+
+body {
+  background-image: url(../images/bg-pattern-top-mobile.svg),
+    url(../images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-y: 0, 105em;
+}
+
+section.top {
+  margin-top: 8.2em;
+}
+
+section.top .left h1 {
+  font-size: 4rem;
+  line-height: 3.2rem;
+  color: #512051;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+section.top .left p {
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #927b91;
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6em;
+  margin: 4em 0 5em;
+}
+
+.rated {
+  width: 32.7em;
+  height: 7.8em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  border-radius: 0.8em;
+  background-color: #f7f2f7;
+}
+
+.rated p {
+  color: #512051;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.star {
+  display: flex;
+  gap: 8px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6em;
+  margin-bottom: 10em;
+}
+
+.card {
+  width: 35em;
+  height: 24.8em;
+  border-radius: 0.8em;
+  background-color: #512051;
+  display: flex;
+  flex-direction: column;
+  padding: 4em 3.2em;
+  gap: 2em;
+}
+
+.avatar {
+  display: flex;
+  gap: 2.3em;
+  align-items: center;
+}
+
+.avatar img {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+}
+
+h2 {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+h3 {
+  color: #ee69a4;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.para {
+  color: white;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 1200px) {
+  article {
+    width: 1440px;
+  }
+
+  body {
+    background-image: url(../images/bg-pattern-top-desktop.svg),
+      url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0, 15em;
+    background-position-x: 0, 25em;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+  }
+
+  section.top .left h1 {
+    text-align: left;
+  }
+
+  section.top .left p {
+    text-align: left;
+  }
+
+  .top .left {
+    margin-top: 5em;
+    margin-left: 16.5em;
+  }
+
+  .top .right {
+    margin-right: 29em;
+  }
+
+  .rated {
+    width: 44.5em;
+    height: 5.6em;
+    flex-direction: row;
+    gap: 3.2em;
+  }
+
+  section.top {
+    display: flex;
+    gap: 15em;
+  }
+
+  .second {
+    margin-right: -4.5em;
+  }
+
+  .third {
+    margin-right: -9em;
+  }
+
+  section.top .left h1 {
+    padding-right: 2em;
+  }
+
+  section.top .left p {
+    margin-right: -4em;
+  }
+
+  .bottom {
+    flex-direction: row;
+    margin-left: 16.5em;
+  }
+
+  .second-card {
+    margin-top: 1.6em;
+  }
+
+  .third-card {
+    margin-top: 3.2em;
+  }
+}
